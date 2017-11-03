@@ -6,7 +6,7 @@ var robot2 = new Robot(2,3);
 robot2.engageToWhere(4,function() {
     robot2.getItemFromShelf(shelf,1,1);
     robot2.engageToWhere(1,function() {
-        robot2.getItemFromShelf(shelf,1,1);
+        robot2.placeItemOnShelf(shelf,1,1);
     });
 });
 robot1.engageToWhere(2,function() {
