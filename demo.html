@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shelf-Robot Demo</title>
+    <style>
+        .columns {
+            border: 3px solid;
+            display: inline-block;
+        }
+
+        .cell {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin: 2px;
+            border: 2px dashed;
+            float: left;
+            text-align: center;
+            line-height: 80px;
+            font-weight:bolder;
+            font-size: 25px;
+        }
+
+        .shelf {
+            width: 176px;
+            height: 176px;
+            border: 3px solid;
+        }
+
+        .path {
+            width: 160px;
+            height: 734px;
+            display: inline-block;
+        }
+
+        .robot {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .storage {
+            position: absolute;
+            margin: 0 auto;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="columns">
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <div class="path"></div>
+    <div class="columns">
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <div class="path"></div>
+    <div class="columns">
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <script src="lib/robot.js"></script>
+    <script src="lib/shelf.js"></script>
+    <script src="lib/controller.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
