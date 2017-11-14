@@ -3,7 +3,5 @@ Use JS to handle Robot
 ---
 
 TODO:
-- Simplify instructions avoid callback hell
+- Fixed the moving distance bug.
 
-Known issue:
-- Movement of robot is not corrent
