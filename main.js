@@ -135,4 +135,10 @@ var instruct2 = [
     [1,1,3,1],
     [3,0,4,0],
     [1,1,4,1]];
+// var instruct2 = [
+//     [1,0,1,0],
+//     [4,1,1,0],
+//     [4,0,1,0],
+//     [1,0,1,0]
+// ];
 controller2.processInstruction(instruct2);
