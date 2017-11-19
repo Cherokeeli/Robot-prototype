@@ -27,7 +27,6 @@
         .shelf {
             width: 176px;
             height: 176px;
-            border: 3px solid;
         }
 
         .path {
@@ -53,10 +52,18 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        .receive-desk,.take-desk {
+            width: 1229px;
+            margin: 50px 0;
+            height: 80px;
+            border: 3px solid;
+        }
     </style>
 </head>
 
 <body>
+    <div class="receive-desk"></div>
     <div class="columns">
         <div class="shelf">
             <div class="cell"></div>
@@ -138,6 +145,34 @@
             <div class="cell"></div>
         </div>
     </div>
+    <div class="path"></div>
+    <div class="columns">
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="shelf">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <div class="take-desk"></div>
     <script src="lib/robot.js"></script>
     <script src="lib/shelf.js"></script>
     <script src="lib/controller.js"></script>
